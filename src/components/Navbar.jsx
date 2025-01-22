@@ -17,16 +17,16 @@ const Navbar = () => {
             <div className='text-white ml-[70px] flex space-x-6'>
                 <div className='flex items-center space-x-2'>
                     <img className='h-6 w-6' src={img} alt="" />
-                    <h1 className='text-lg font-semibold'>Visual Studio Code</h1>
+                    <a href='' className='text-lg font-semibold'>Visual Studio Code</a>
                 </div>
                 <div className='flex items-center text-sm font-semibold text-gray-400 space-x-4 justify-center'>
-                    <a href="">Docs</a>
-                    <a href="">Updates</a>
-                    <a href="">Blog</a>
-                    <a href="">API</a>
-                    <a href="">Extensions</a>
-                    <a href="">FAQ</a>
-                    <a href="">Learn</a>
+                    <a href="https://code.visualstudio.com/docs">Docs</a>
+                    <a href="https://code.visualstudio.com/updates/v1_92">Updates</a>
+                    <a href="https://code.visualstudio.com/blogs/2024/06/24/extensions-are-all-you-need">Blog</a>
+                    <a href="https://code.visualstudio.com/api">API</a>
+                    <a href="https://marketplace.visualstudio.com/VSCode">Extensions</a>
+                    <a href="https://code.visualstudio.com/docs/supporting/faq">FAQ</a>
+                    <a href="https://code.visualstudio.com/docs/getstarted/getting-started">Learn</a>
                 </div>
             </div>
 
